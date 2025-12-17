@@ -5,55 +5,75 @@
 Estás farto do *Lorem Ipsum* aborrecido em Latim? O teu design precisa de mais **bacalhau**, **bigodes** e **futebol**?
 Bem-vindo ao **Lorem Ipsum Tuga**! O único gerador de texto que grita **SIUUUUU** quando clicas no botão.
 
-![License](https://img.shields.io/badge/license-MIT-green) ![Azeite Level](https://img.shields.io/badge/Azeite%20Level-Máximo-yellow) ![Made In](https://img.shields.io/badge/Made%20In-Portugal-red)
+![License](https://img.shields.io/badge/license-MIT-green) ![Azeite Level](https://img.shields.io/badge/Azeite%20Level-Virgem%20Extra-yellow) ![Made In](https://img.shields.io/badge/Made%20In-Portugal-red)
 
 ## 🚀 O que é isto?
-É um gerador de texto "placeholder" para designers e developers que querem dar um toque português aos seus projetos. Em vez de latim morto, tens:
-- 🗣️ **Expressões Típicas**: "Eh pá", "Ouve lá", "Diz-me uma coisa".
-- 🌟 **Celebridades Nacionais**: Do CR7 ao Quim Barreiros.
-- 🥘 **Gastronomia**: Francesinhas, Alheiras e Pastéis de Nata.
-- 🚗 **Azeite**: Muito azeite.
+É a ferramenta essencial para qualquer Web Developer português que se preze. Em vez de "Dolor sit amet", tens poesia nacional.
+Ideal para preencher layouts enquanto esperas que o cliente te envie os textos (ou seja, para sempre).
+
+Inclui:
+- 🗣️ **Expressões Típicas**: "Imagina", "Eh pá", "Ouve lá", "Diz-me uma coisa", "Estás a ver?".
+- 🌟 **Celebridades Nacionais**: Do CR7 ao Quim Barreiros, passando pelo Fernando Mendes.
+- 🥘 **Gastronomia**: Francesinhas, Alheiras, Cozido à Portuguesa e muito Vinho Verde.
+- 🚗 **Azeite**: Uma quantidade perigosa de azeite.
 
 ## ✨ Funcionalidades Épicas
 
-### 🎚️ Slider de Intensidade (O "Azeitómetro")
-Controla o nível de calão e "tuganess" do teu texto:
-1. **Suave**: Para apresentações ao chefe ou à sogra.
-2. **Equilibrado**: O típico café com os amigos.
-3. **Comó Milho**: Já começa a aquecer.
-4. **Azeiteiro**: Nível Xuning no estacionamento do McDonald's às 3 da manhã.
+### 🎚️ O "Azeitómetro" (Slider de Intensidade)
+Controla o nível de "tuganess" do teu texto. Desde o discurso cuidado até à conversa de tasca às 3 da manhã:
+1. **Suave**: Seguro para mostrar à avó.
+2. **Equilibrado**: O típico "bitaite" de café.
+3. **Comó Milho**: Já se ouve o Quim Barreiros ao fundo.
+4. **Azeiteiro**: Nível "Seat Ibiza fumarento na VCI". Cuidado com este.
+
+### 🌗 Dark Mode (Modo Poupança EDP)
+Porque a eletricidade está cara. Já vem ativado por defeito porque sabemos que és um *hacker* que vive nas sombras.
+
+### 🎲 Roleta Russa de Favicons
+Cada vez que abres o site, sai-te uma surpresa na aba do browser: um Galo, um Acordeão, um Bigode... É como sair a fava no Bolo Rei, mas digital.
 
 ### ⚽ Botão SIUUU
 Não é um botão normal. É um botão com atitude. Clica e sente a energia do Melhor do Mundo. **SIUUUUUUUU!**
 
-### 🎲 Modo Surpresa
-Não sabes o que queres? Deixa o destino (e o `Math.random()`) decidir por ti.
+## 🛠️ Stack Tecnológica (Modernice)
+Isto não é um site feito no Bloco de Notas. Estamos a falar de tecnologia de ponta, mais avançada que o sistema de senhas das Finanças:
+- **React 18**: Porque somos chiques.
+- **TypeScript**: Porque gostamos de evitar erros (ao contrário da defesa da Seleção em 2004).
+- **Vite**: Mais rápido que o GNR a passar multas.
+- **Tailwind CSS**: Para ficar bonito sem esforço.
 
-## 🛠️ Como usar
-1. Clona este repositório (ou faz download, não sejas tímido).
-2. Abre o ficheiro `index.html` no teu browser favorito.
-3. Escolhe as tuas definições.
-4. Clica em **GERAR TEXTO**.
-5. Copia e cola no teu design.
+## 📦 Como Instalar esta Obra de Arte
 
-## 📦 Instalação
-Não precisas de `npm install`, `webpack`, `react`, `vue` ou `docker`. Isto é tecnologia portuguesa rija e simples:
-```bash
-git clone https://github.com/andrenevesgomes/lorem-ipsum-tuga.git
-cd lorem-ipsum-tuga
-# Abre o index.html e diverte-te
-```
+1. Clona o repositório (com carinho):
+   ```bash
+   git clone https://github.com/andrenevesgomes/lorem-ipsum-tuga.git
+   ```
+
+2. Entra na pasta e instala as dependências:
+   ```bash
+   cd lorem-ipsum-tuga
+   npm install
+   # ou pnpm install, se fores hipster
+   ```
+
+3. Mete a máquina a trabalhar:
+   ```bash
+   npm run dev
+   ```
+
+4. Abre o browser e delicia-te.
 
 ## 🤝 Como Contribuir
-Queres adicionar aquela expressão que o teu avô dizia?
+Queres adicionar aquela expressão que o teu tio de Trás-os-Montes diz sempre?
 1. Faz um **Fork**.
-2. Abre o `script.js` e adiciona a pérola no array `data`.
-3. Manda um **Pull Request**.
-   - Se for bom, a gente aceita e pagamos-te uma jola virtual 🍺.
-   - Se for mau, mandamos-te ir dar uma volta ao bilhar grande.
+2. Vai ao `src/data/dictionary.ts` (sim, agora é TypeScript, respeitinho).
+3. Adiciona a tua pérola.
+4. Manda um **Pull Request**.
+   - Se for bom, pagamos-te uma jola virtual 🍺.
+   - Se partires o código, ficas a dever uma Francesinha à equipa.
 
 ## 📜 Licença
-**MIT**. Podes usar à vontade nos teus projetos, sites, apps ou t-shirts. Se ficares rico com isto, lembra-te da malta.
+**MIT**. Podes usar à vontade. Se ficares rico com isto, lembra-te de quem te deu o ouro.
 
 ---
 *Feito com ❤️, código e muito azeite em Portugal.* 🇵🇹

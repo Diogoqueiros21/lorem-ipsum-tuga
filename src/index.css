@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Background Pattern */
+body {
+  @apply bg-gray-50 text-gray-900 transition-colors duration-300;
+  background-image: 
+      radial-gradient(circle at 50% 0, rgba(0,0,0,0.05) 10%, transparent 10.5%),
+      radial-gradient(circle at 50% 100%, rgba(0,0,0,0.05) 10%, transparent 10.5%);
+  background-size: 40px 40px;
+}
+
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+  background-image: 
+      radial-gradient(circle at 50% 0, rgba(255,255,255,0.05) 10%, transparent 10.5%),
+      radial-gradient(circle at 50% 100%, rgba(255,255,255,0.05) 10%, transparent 10.5%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}

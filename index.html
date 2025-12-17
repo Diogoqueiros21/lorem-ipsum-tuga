@@ -1,70 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-PT">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorem Ipsum Tuga</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>🇵🇹 Lorem Ipsum Tuga</h1>
-        <p class="subtitle">O gerador de texto para o verdadeiro Alfacinha e todos os Tugas.</p>
-        
-        <div class="controls">
-            <div class="control-group">
-                <label for="paragraphs">Quantos parágrafos?</label>
-                <div class="input-wrapper">
-                    <button class="counter-btn" onclick="adjustValue(-1)">-</button>
-                    <input type="number" id="paragraphs" value="3" min="1" max="10" readonly>
-                    <button class="counter-btn" onclick="adjustValue(1)">+</button>
-                </div>
-            </div>
-            
-            <div class="control-group">
-                <label for="intensity">Nível de Tuga:</label>
-                <input type="range" id="intensity" min="1" max="100" value="50" class="slider">
-                <span id="intensity-label">Equilibrado</span>
-            </div>
-
-            <div class="options">
-                <label class="checkbox-container">
-                    <input type="checkbox" id="include-celebrities" checked>
-                    <span class="checkmark"></span>
-                    Figuras Públicas
-                </label>
-                <label class="checkbox-container">
-                    <input type="checkbox" id="include-expressions" checked>
-                    <span class="checkmark"></span>
-                    Expressões Típicas
-                </label>
-                <label class="checkbox-container">
-                    <input type="checkbox" id="include-food" checked>
-                    <span class="checkmark"></span>
-                    Comida
-                </label>
-            </div>
-
-            <div class="actions">
-                <button id="generate-btn" class="primary-btn">
-                    <span class="icon">🇵🇹</span> Gerar Texto
-                </button>
-                <button id="surprise-btn" class="secondary-btn">
-                    <span class="icon">🎲</span> Surpreende-me
-                </button>
-                <button id="copy-btn" class="icon-btn" title="Copiar">
-                    📋
-                </button>
-            </div>
-        </div>
-
-        <div id="output" class="output-box">
-            <div class="placeholder-text">O teu texto tuga vai aparecer aqui...</div>
-        </div>
-    </div>
-
-    <div id="toast" class="toast hidden">Já está no bucho! (Copiado)</div>
-
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link id="favicon" rel="icon" type="image/svg+xml" href="/favicons/galo.svg" />
+    <script>
+      // Random Tuga Favicon Logic
+      const icons = [
+        '/favicons/acordeao.svg', // Acordeão (Accordion)
+        '/favicons/bandeira.svg', // Bandeira (Flag)
+        '/favicons/bigode.svg',   // Bigode (Mustache)
+        '/favicons/galo.svg',     // Galo (Classic)
+        '/favicons/sardinha.svg', // Sardinha (Sardine)
+        '/favicons/vinho.svg'     // Vinho (Wine Glass)
+      ];
+      const randomIcon = icons[Math.floor(Math.random() * icons.length)];
+      document.getElementById('favicon').href = randomIcon;
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorem Ipsum Tuga 2.0</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
