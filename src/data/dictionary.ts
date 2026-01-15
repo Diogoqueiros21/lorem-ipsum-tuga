@@ -91,6 +91,6 @@ export const dictionary: Dictionary = {
         "bué da", "ganda", "tipo", "cena", "tuga", "fixe", "tótil", "top", "brutal", "marado", "chanfrado",
         "giro", "porreiro", "bacano", "mó", "chunga", "beto", "mitra", "gunão",
         "sossio", "primaço", "moca", "pica", "dred", "chavalo", "jarda", "estrilho",
-        "manso", "cota", "chavalada", "bué", "ya", "nicles", "baldas", "fino"
+        "manso", "cota", "chavalada", "ya", "nicles", "baldas", "fino"
     ]
 };
